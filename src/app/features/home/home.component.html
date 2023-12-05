@@ -1,0 +1,23 @@
+<div id="home-component">
+    <section class="page-title-container">
+        <div class="page-title">
+            Projetos (7)
+        </div>
+
+        <div class="page-search-container">
+            <app-search-input placeholder="Pesquisar projetos"></app-search-input>
+        </div>
+    </section>
+
+    <section class="page-content-list-container">
+        <div class="list-item" *ngFor="let project of projects">
+            <p class="item-title">{{ project.name }}</p>
+
+            <p class="item-description">{{ project.description }}</p>
+
+            <div class="item-action-buttons">
+                <button type="button" routerLink="/projetos/1">Ver detalhes</button>
+            </div>
+        </div>
+    </section>
+</div>

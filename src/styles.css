@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --page-bg-color-1: #0D0C0F;
+    --gray-color-1: #2B3442;
+    --gray-color-2: #606671;
+    /* --page-bg-color-2: #111111; */
+    --border-radius: 20px;
+    --division-line-color: rgba(85, 85, 85, 0.5);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--page-bg-color-1);
+    color: #FFFFFF;
+    min-height: 100vh;
+}

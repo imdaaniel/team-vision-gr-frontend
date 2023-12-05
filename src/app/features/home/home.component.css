@@ -1,0 +1,28 @@
+#home-component {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+}
+
+.page-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-content-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.list-item {
+    background-color: #081633;
+    border: 1px solid #10325E;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    height: 300px;
+    overflow: hidden;
+}
